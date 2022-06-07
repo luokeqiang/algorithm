@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="277cbf0b-5222-4a6b-b12b-a9505489cd05" name="Changes" comment="" />
+    <list default="true" id="277cbf0b-5222-4a6b-b12b-a9505489cd05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/luoke/disjointset/QuickFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/luoke/disjointset/QuickFindTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -26,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="29jobhD1sY9do7IUA90oDlDgjWG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -35,6 +42,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -47,22 +59,7 @@
       <recent name="org.luoke.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TwoThreeTreeTest.find">
-    <configuration name="AVLTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.luoke.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.luoke.tree" />
-      <option name="MAIN_CLASS_NAME" value="org.luoke.tree.AVLTreeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QuickFindTest.merge">
     <configuration name="AVLTreeTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -111,6 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickFindTest.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.luoke.disjointset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.luoke.disjointset" />
+      <option name="MAIN_CLASS_NAME" value="org.luoke.disjointset.QuickFindTest" />
+      <option name="METHOD_NAME" value="merge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoThreeTreeTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -129,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuickFindTest.merge" />
         <item itemvalue="JUnit.TwoThreeTreeTest.find" />
         <item itemvalue="JUnit.AVLTreeTest.insert" />
         <item itemvalue="JUnit.AVLTreeTest.findLast" />
         <item itemvalue="JUnit.AVLTreeTest.find" />
-        <item itemvalue="JUnit.AVLTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,10 +166,26 @@
       <workItem from="1653957431371" duration="639000" />
       <workItem from="1653966917210" duration="4684000" />
       <workItem from="1654135337858" duration="5699000" />
+      <workItem from="1654588463181" duration="1180000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
