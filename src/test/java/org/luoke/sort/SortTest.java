@@ -70,4 +70,9 @@ class SortTest {
     void mergeSort() {
         sort = new MergeSort<>();
     }
+
+    @Test
+    void quickSort() {
+        sort = new QuickSort<>();
+    }
 }
