@@ -75,4 +75,9 @@ class SortTest {
     void quickSort() {
         sort = new QuickSort<>();
     }
+
+    @Test
+    void countSort() {
+        sort = new CountSort();
+    }
 }
