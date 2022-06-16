@@ -18,6 +18,10 @@ class SortTest {
     Sort<Integer> sort;
 
     Integer[][] tests = new Integer[][]{
+            {5,2,3,1},
+            {1,2,3,5},
+            {4,1,5,8,7,9},
+            {1,4,5,7,8,9},
             {61, 97, 0, 17, 53, 34, 22, 31, 36, 49 ,22},
             {0, 17, 22, 22, 31, 34, 36, 49, 53, 61, 97},
             {2,1},
@@ -30,6 +34,10 @@ class SortTest {
             {1,2,3,4},
             {-4,3,2,1},
             {-4,1,2,3},
+            {-4,3,2,-999},
+            {-999,-4,2,3},
+            {-4,3,2,-999,9999},
+            {-999,-4,2,3,9999},
     };
 
     @BeforeEach
@@ -79,5 +87,10 @@ class SortTest {
     @Test
     void countSort() {
         sort = new CountSort();
+    }
+
+    @Test
+    void bucketSort() {
+        sort = new BucketSort();
     }
 }
