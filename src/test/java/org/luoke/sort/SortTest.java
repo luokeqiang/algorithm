@@ -98,4 +98,9 @@ class SortTest {
     void heapSort() {
         sort = new HeapSort<>();
     }
+
+    @Test
+    void radixSort() {
+        sort = new RadixSort();
+    }
 }
