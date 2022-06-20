@@ -93,4 +93,9 @@ class SortTest {
     void bucketSort() {
         sort = new BucketSort();
     }
+
+    @Test
+    void heapSort() {
+        sort = new HeapSort<>();
+    }
 }
